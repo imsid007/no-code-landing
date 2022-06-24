@@ -1,0 +1,105 @@
+@import "../constonts.scss";
+
+.home_hero_container {
+  max-width: 1250px;
+  margin: auto;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.home_background {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  position: absolute;
+  background: url("../../../public/images/home/home-background.svg");
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home_hero_banner_container {
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background: #000;
+  box-sizing: border-box;
+  min-height: calc(100vh - 64px);
+  padding-top: 14vh;
+  flex-direction: column;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+
+.hero_subtitle {
+  font-size: 1.8rem;
+  font-weight: 400;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 9vh;
+}
+
+.create_new_project_btn:hover {
+  border-color: $secondary_color !important;
+  background-color: #fff !important;
+  color: $secondary_color !important;
+}
+
+.create_new_project_btn {
+  background-color: $secondary_color !important;
+  border-color: $secondary_color;
+  color: #fff !important;
+  border-radius: 5px !important;
+  padding: 5px 40px !important;
+  height: auto !important;
+  font-size: 1.2rem;
+}
+
+.partner_title {
+  border-top: 1px solid #777 !important;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.brand_img {
+  max-width: 100%;
+}
+
+.develop_title {
+  color: #000;
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 5vw;
+  font-weight: 700;
+}
+
+.develop_subtitle {
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 0.03rem;
+}
+
+.develop_banner_img {
+  max-width: 100%;
+}
+
+.develop_description {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.develop_description_container {
+  margin-bottom: 4vw;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

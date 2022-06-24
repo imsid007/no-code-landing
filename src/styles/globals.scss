@@ -1,0 +1,44 @@
+@import "./app.scss";
+@import "./constonts.scss";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 15px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h3,
+h2,
+h6 {
+  color: #fff;
+}
+
+.title {
+  font-size: 3.8rem;
+  font-weight: 600;
+}
+
+.sub-title {
+  font-size: 2.6rem;
+}
+
+.container {
+  max-width: 1280px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  margin: auto;
+}
